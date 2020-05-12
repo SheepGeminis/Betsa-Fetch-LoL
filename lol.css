@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+div#card-node {
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+div#card-node div#card-node-image {
+
+}
+div#card-node div#card-node-image img{
+    width: 100%;
+    height: auto;
+}
+
+div#card-node-content {
+    background-color: white;
+    padding: 15px;
+}
+div#card-node div#card-node-content h2 {
+    font-weight: bold;
+}
+div#card-node div#card-node-content p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+div#container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
